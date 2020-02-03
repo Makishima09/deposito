@@ -7,7 +7,7 @@ package dam_ed04_actividad;
 
 
 public class CCuenta {
-
+    
     private String nombre;
     private String cuenta;
     private double saldo;
@@ -27,7 +27,7 @@ public class CCuenta {
 
     /**
      * Método para asignar el nombre del cliente
-     * @param nom nombrel del cliente
+     * @param nom nombre del cliente
      */
     public void asignarNombre(String nom)
     {
@@ -64,7 +64,7 @@ public class CCuenta {
     /**
      * Método para ingreso de dinero
      * @param cantidad de dinero a ingresar
-     * @throws Exception 
+     * @throws Exception exception
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -76,7 +76,7 @@ public class CCuenta {
     /**
      * Método para retirar dinero
      * @param cantidad de dinero a retirar
-     * @throws Exception 
+     * @throws Exception exception
      */
     public void retirar(double cantidad) throws Exception
     {
